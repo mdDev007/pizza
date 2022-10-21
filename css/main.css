@@ -34,6 +34,8 @@
   display: flex;
   justify-content: space-between;
   margin-left: 450px;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .our {
@@ -42,7 +44,7 @@
   margin-left: 15px;
 }
 
-.battn {
+.wrap {
   background-color: #bc8c4c;
   border: 1px solid #bc8c4c;
   border-radius: 5px;
@@ -51,7 +53,7 @@
   margin-right: 450px;
 }
 
-.battn:hover {
+.wrap:hover {
   background-color: #805c2d;
   border: 1px solid #805c2d;
 }
